@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="img/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Shoes Store</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Img/shoes-logo-2 1.png" alt="Logo">
+        </div>
+        <div class="menus">
+            <h1>TODOS OS PRODUTOS</h1>
+            <h1>COLEÇÕES</h1>
+            <h1>OUTLET</h1>
+        </div>
+    </header>
+    <main>
+        <div class="comemoracao">
+            <h3>MÊS DE SETEMBRO - FRETE GRÁTIS PARA TODO O BRASIL!</h3>
+        </div>
+        <div class="formulario">
+            <h2>Faça parte do nosso time</h2>
+            <form action="/registro" method="POST">
+                <br>
+                <label for="nome">Nome</label><br>
+                <input class="inserir" type="text" name="nome">
+                <br>
+                <br>
+                <label for="email">Email</label><br>
+                <input class="inserir" type="email" name="email">
+                <br>
+                <br>
+                <label for="telefone">Telefone</label><br>
+                <input class="inserir" type="number" name="telefone">
+                <br>
+                <br>
+                <label for="departamentos">Departamentos</label><br>
+                <select class = "inserir" name="departamentos" id="departamentos">
+                    <option disabled selected value=""></option>
+                    <option value="RH">RH</option>
+                    <option value="Logística">Logística</option>
+                    <option value="Comercial">Comercial</option>
+                    <option value="Outros">Outros</option>
+                </select>
+                <br>
+                <br>
+                <label for="disponibilidade">Disponibilidade</label><br>
+                <input type="checkbox" name="disponibilidade" id="integral" value="Integral (8h)"><label for="integral">Integral (8h)</label>
+                <input type="checkbox" name="disponibilidade" id="meioperiodo" value="Meio-Período (4h)"><label for="meioperiodo">Meio-Período (4h)</label>
+                <input type="checkbox" name="disponibilidade" id="freelancer" value="Freelancer"><label for="freelancer">Freelancer</label>
+                <br>
+                <br>
+                <label for="contato">Qual o melhor forma para entrarmos em contato com você?</label><br>
+                <input id="email" type="radio" name="contato" value="email"><label for="email">Email</label>
+                <input id="ligacao" type="radio" name="contato" value="ligação"><label for="ligação">Ligação</label>
+                <input id="whats" type="radio" name="contato" value="whats"><label for="whats">Whatsapp</label>
+                <br>
+                <br>
+                <label for="mensagem">Mensagem</label><br>
+                <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea>
+                <br>
+                <br>
+                <label class= "label" for="nome_do_currículo">Currículo</label>
+
+                <label class = "curriculo" for="curriculo">Upload</label>
+                <input type="file" name="curriculo" accept=".pdf">
+                <br>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="paragrafo">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id risus nec lectus ultrices venenatis sit amet non justo. Sed vel imperdiet lectus, nec suscipit turpis. Pellentesque a ligula eu metus finibus volutpat. Nam at ex interdum, tincidunt lorem vitae, viverra neque.
+            </p>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis sed turpis id porta. Donec ut metus a diam vulputate tempor. Proin tristique fringilla eros, pulvinar ultrices ex pharetra vitae. Nullam fringilla est non est consequat blandit.
+            </p>
+            <br>
+            <p>
+                Nulla augue ipsum, hendrerit ac mattis non, luctus at risus. Curabitur faucibus, erat eget lacinia suscipit, orci est fringilla dui, sed gravida lectus libero quis risus. Integer fringilla sapien et urna euismod cursus. Suspendisse porta aliquet accumsan.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="logo2">
+            <img src="Img/shoes-logo-white-3 1.png" alt="logo branco">
+            <p class="sublogo">Donec ultricies nibh vitae odio laoreet feugiat. Aliquam dapibus vestibulum est, pharetra interdum elit viverra vitae. Vivamus sed quam sem.</p>
+        </div>
+        <div class="maisinfos">
+            <div class="categorias">
+                <h3>
+                    categorias
+                </h3>
+                <h4>sandálias</h4>
+                <h4>botas</h4>
+                <h4>tênis</h4>
+                <h4>oxford</h4>
+                <h4>coturnos</h4>
+            </div>
+            <div class="institucional">
+                <h3>institucional</h3>
+                <h4>sobre nós</h4>
+                <h4>perguntas frequentes</h4>
+                <h4>política de privacidade</h4>
+                <h4>rastreamento de pedidos</h4>
+                <h4>fale conosco</h4>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
